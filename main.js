@@ -22,7 +22,7 @@ console.log('ml5 version:', ml5.version);
     console.log("hello >:)")
  }
 
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/0c48NNcqR/model.json', modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/bR7-Xs4nk/json', modelLoaded);
 
 function check(){
     img = document.getElementById('capture_image');
